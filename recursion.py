@@ -38,3 +38,13 @@ def sum_of_digits(n):
 print(factorial(5))  # Output: 120
 print(fibonacci(10))  # Output: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
 print(sum_of_digits(12345))  # Output: 15
+
+
+def cal_sum(n):
+    if(n == 0):
+        return
+    print(n)
+    cal_sum(n-1)
+
+
+print(cal_sum(5))
